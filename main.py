@@ -28,10 +28,12 @@ async def is_admins(chat_id: int):
             chat_id, filter="administrators"
         )
     ]
+await message.reply_photo(
+
+        photo=f"https://graph.org/file/2a134808542c19612f280.jpg",
 
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/24474d87a093a868e538f.jpg"
 @bot.on_message(filters.command("start"))
 async def start(client, message):
         await message.reply_text("Hi! My name is Ishi. I'm an Artificial Intelligence\n /chatbot - [on|off]")
