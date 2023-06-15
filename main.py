@@ -29,7 +29,7 @@ async def is_admins(chat_id: int):
         )
     ]
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/24474d87a093a868e538f.jpg")
+
 
 START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/24474d87a093a868e538f.jpg"
 @bot.on_message(filters.command("start"))
